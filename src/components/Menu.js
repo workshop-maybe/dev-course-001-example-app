@@ -17,6 +17,9 @@ export default function Menu() {
             <li class="nav-item ml-3">
               <Link to="/weather">Weather API</Link>
             </li>
+            <li class="nav-item ml-3">
+              <Link to="/demos">React Demos</Link>
+            </li>
           </ul>
         </nav>
         

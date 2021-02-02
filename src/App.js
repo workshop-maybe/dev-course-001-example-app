@@ -5,6 +5,7 @@ import SiteTitle from './SiteTitle';
 import IdeaList from './IdeaList';
 import MetadataCall from './MetadataCall';
 import Weather from './Weather';
+import ReactDemos from './ReactDemos';
 
 function App() {
 
@@ -24,6 +25,9 @@ function App() {
             </Route>
             <Route path="/weather">
               <Weather />
+            </Route>
+            <Route path="/demos">
+              <ReactDemos />
             </Route>
             <Route path="/">
               <h1>Home Page</h1>
